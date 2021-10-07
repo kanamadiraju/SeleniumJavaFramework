@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="automationpractice.com.pageObject.CreateAccountForm"/>
+      <class name="automationpractice.com.LoginFormTest"/>
+      <class name="Utility.ExtentManager"/>
+      <class name="utils.EmailsGenerator"/>
+      <class name="automationpractice.com.pageObject.CreateAccount"/>
+      <class name="automationpractice.com.CreateAccountFormTest"/>
+      <class name="utils.Utils"/>
+      <class name="automationpractice.com.pageObject.SignInForm"/>
+      <class name="automationpractice.com.pageObject.Homepage"/>
+      <class name="automationpractice.com.pageObject.Account"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="automationpractice.com.LoginFormTest">
+        <methods>
+          <include name="loginPage"/>
+          <include name="invalidCredentials"/>
+          <include name="successfulLogin"/>
+          <include name="emailFormat"/>
+          <include name="loginWithoutCredentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- automationpractice.com.LoginFormTest -->
+      <class name="automationpractice.com.CreateAccountFormTest">
+        <methods>
+          <include name="personalInfoFields"/>
+          <include name="requiredFieldsEmpty"/>
+          <include name="authenticationPageEmailField"/>
+          <include name="setup"/>
+          <include name="createAccountSuccessfully"/>
+          <include name="authenticationPage"/>
+          <include name="requiredFieldsInputFormat"/>
+        </methods>
+      </class> <!-- automationpractice.com.CreateAccountFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

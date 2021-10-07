@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="0" failed="0" skipped="11">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-07T13:57:44Z" name="automationpractice.com" finished-at="2021-10-07T13:58:04Z" duration-ms="19994">
+    <groups>
+    </groups>
+    <test started-at="2021-10-07T13:57:44Z" name="automationpractice.com" finished-at="2021-10-07T13:58:04Z" duration-ms="19994">
+      <class name="automationpractice.com.LoginFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:01Z" name="setup" finished-at="2021-10-07T19:28:01Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SBWL-NKANAMADI', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NKANAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3364acd033ee767a2b6228cab45351a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SBWL-NKANAMADI', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NKANAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3364acd033ee767a2b6228cab45351a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
+	at automationpractice.com.LoginFormTest.setup(LoginFormTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPage()[pri:1, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="loginPage" finished-at="2021-10-07T19:28:04Z" duration-ms="3" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="invalidCredentials()[pri:2, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="invalidCredentials" finished-at="2021-10-07T19:28:04Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method signature="loginWithoutCredentials()[pri:3, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="loginWithoutCredentials" finished-at="2021-10-07T19:28:04Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutCredentials -->
+        <test-method signature="emailFormat()[pri:4, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="emailFormat" finished-at="2021-10-07T19:28:04Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFormat -->
+        <test-method signature="successfulLogin()[pri:5, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="successfulLogin" finished-at="2021-10-07T19:28:04Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:automationpractice.com.LoginFormTest@6e509ffa]" started-at="2021-10-07T19:28:04Z" name="closeAll" finished-at="2021-10-07T19:28:04Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- automationpractice.com.LoginFormTest -->
+      <class name="automationpractice.com.CreateAccountFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:27:44Z" name="setup" finished-at="2021-10-07T19:27:44Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SBWL-NKANAMADI', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NKANAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 437fe84a26f0d3af78edb6ab682cba36]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=94.0.4606.71)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SBWL-NKANAMADI', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NKANAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 437fe84a26f0d3af78edb6ab682cba36
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:282)
+	at automationpractice.com.CreateAccountFormTest.setup(CreateAccountFormTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="authenticationPage()[pri:1, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="authenticationPage" finished-at="2021-10-07T19:28:01Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationPage -->
+        <test-method signature="authenticationPageEmailField()[pri:2, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="authenticationPageEmailField" finished-at="2021-10-07T19:28:01Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticationPageEmailField -->
+        <test-method signature="personalInfoFields()[pri:3, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="personalInfoFields" finished-at="2021-10-07T19:28:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalInfoFields -->
+        <test-method signature="requiredFieldsEmpty()[pri:4, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="requiredFieldsEmpty" finished-at="2021-10-07T19:28:01Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFieldsEmpty -->
+        <test-method signature="requiredFieldsInputFormat()[pri:5, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="requiredFieldsInputFormat" finished-at="2021-10-07T19:28:01Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requiredFieldsInputFormat -->
+        <test-method signature="createAccountSuccessfully()[pri:6, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="createAccountSuccessfully" finished-at="2021-10-07T19:28:01Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountSuccessfully -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:automationpractice.com.CreateAccountFormTest@d21a74c]" started-at="2021-10-07T19:28:01Z" name="closeAll" finished-at="2021-10-07T19:28:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- automationpractice.com.CreateAccountFormTest -->
+    </test> <!-- automationpractice.com -->
+  </suite> <!-- automationpractice.com -->
+</testng-results>
